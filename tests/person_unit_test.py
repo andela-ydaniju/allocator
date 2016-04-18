@@ -1,5 +1,5 @@
 import unittest
-from lib.allocator.person import Person
+from .context import Person
 
 class TddInPythonExample(unittest.TestCase):
  
