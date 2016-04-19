@@ -4,6 +4,6 @@ python:
 before_script:
   - pip install -r requirements.txt 
 script:
-  - coverage run -m tests.person_unit_test
+  - nosetests --with-coverage --cover-package=lib
 after_success:
   - coveralls
