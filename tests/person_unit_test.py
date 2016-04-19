@@ -1,7 +1,7 @@
 import unittest
 from .context import Person
 
-class TddInPythonExample(unittest.TestCase):
+class TestPerson(unittest.TestCase):
  
     def test_person_is_initialized_with_name(self):
         man = Person("Yusuf", "Fellow")
